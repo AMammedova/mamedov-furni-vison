@@ -1,0 +1,118 @@
+{
+    "Header": {
+        "title": "Mamedov Furniture",
+        "collections": "Kolleksiyalar",
+        "assistant": "AI Assistenti",
+        "craftsmanship": "Sənətkarlıq",
+        "about": "Haqqımızda"
+    },
+    "Hero": {
+        "badge": "Sənət və AI-nın Görüşdüyü Yer",
+        "title_prefix": "Yenidən Tanımlanan",
+        "title_highlight": "Lüks Həyat",
+        "description": "Ənənəvi sənətkarlıq və qabaqcıl AI texnologiyasının mükəmməl birləşməsini yaşayın. Hər bir parça, sizin fikrinizə uyğun hazırlanmış bir şah əsərdir.",
+        "cta_explore": "Kolleksiyaları Kəşf Edin",
+        "cta_assistant": "AI Dizayn Assistenti",
+        "stats_years": "Mükəmməllik İlləri",
+        "stats_designs": "Unikal Dizaynlar",
+        "stats_satisfaction": "Müştəri Məmnuniyyəti"
+    },
+    "Features": {
+        "philosophy": "Bizim Fəlsəfəmiz",
+        "title": "Ənənənin İnnovasiya ilə Görüşdüyü Yer",
+        "description": "Biz inanırıq ki, mebelin gələcəyi zamanın sınağından çıxmış sənətkarlığın qabaqcıl texnologiya ilə harmoniyasındadır.",
+        "craftsmanship_title": "Sənətkarlıq",
+        "craftsmanship_desc": "Hər bir parça onilliklər boyu təcrübəyə malik ustad sənətkarlar tərəfindən əl işidir, bənzərsiz keyfiyyət və detallara diqqət təmin edilir.",
+        "ai_title": "AI ilə Təkmilləşdirilmiş Dizayn",
+        "ai_desc": "Bizim xüsusi AI texnologiyamız forma və funksiyanın mükəmməl balansı üçün erqonomikanı, nisbətləri və struktur bütövlüyünü optimallaşdırır.",
+        "materials_title": "Premium Materiallar",
+        "materials_desc": "Biz dünyanın hər yerindən yalnız ən yaxşı davamlı ağacları, premium parçaları və ekoloji cəhətdən təmiz cilaları təmin edirik.",
+        "sustainable_title": "Davamlı Təcrübə",
+        "sustainable_desc": "Ekoloji məsuliyyətə sadiq qalaraq, sertifikatlı davamlı materiallardan və karbon-neytral istehsal üsullarından istifadə edirik.",
+        "process_title": "Yaradılış Prosesimiz",
+        "step_1_title": "AI Analizi",
+        "step_1_desc": "Dizayn optimallaşdırılması və planlaşdırma",
+        "step_2_title": "Material Seçimi",
+        "step_2_desc": "Premium davamlı təchizat",
+        "step_3_title": "Əl İşi",
+        "step_3_desc": "Sənətkar istehsalı",
+        "step_4_title": "Keyfiyyət Təminatı",
+        "step_4_desc": "Ciddi sınaq və tamamlama"
+    },
+    "ProductGallery": {
+        "collection_tag": "Seçilmiş Kolleksiyalar",
+        "collection_title": "Zamanın Sınağından Çıxmış Şah Əsərlər",
+        "collection_desc": "Hər bir parça ustad sənətkarlar tərəfindən hazırlanır və mükəmməl nisbətlər və əbədi zəriflik üçün AI dəqiqliyi ilə təkmilləşdirilir.",
+        "view_all": "Bütün Kolleksiyalara Baxın",
+        "categories": {
+            "Seating": "Oturacaqlar",
+            "Tables": "Masalar",
+            "Workspace": "İş Sahəsi"
+        },
+        "products": {
+            "Milano Lounge Chair": "Milano İstirahət Kreslosu",
+            "Heritage Dining Table": "Miras Yemək Masası",
+            "Artisan Sofa": "Sənətkar Divanı",
+            "Signature Collection": "İmza Kolleksiyası",
+            "Zen Minimalist Chair": "Zen Minimalist Kreslo",
+            "Executive Desk": "Rəhbər Masası"
+        }
+    },
+    "AIAssistant": {
+        "badge": "AI ilə İşləyən Dizayn",
+        "title": "Şəxsi Dizayn Assistentiniz",
+        "description": "Mükəmməl məkanınızı yaratmaq üçün AI-nın gücündən istifadə edin. Zövqünüzə uyğun ani tövsiyələr, vizuallaşdırmalar və ekspert rəhbərliyi alın.",
+        "chat_title": "Mamedov Furniture AI",
+        "status": "Həmişə Onlayn",
+        "active": "Aktiv",
+        "welcome_message": "Mamedov Furniture AI Dizayn Assistentinə xoş gəlmisiniz! Məkanınız üçün mükəmməl mebel parçalarını tapmaqda sizə kömək etmək üçün buradayam. Hansı tərzi axtarırsınız?",
+        "placeholder": "Mebel, üslublar və ya dizayn fikirləri haqqında soruşun...",
+        "suggestions": {
+            "1": "Müasir minimalist kresloları göstər",
+            "2": "8 nəfərlik yemək masasına ehtiyacım var",
+            "3": "Hansı ağac cilalarınız var?",
+            "4": "Tam bir qonaq otağı dizayn et"
+        },
+        "features": {
+            "recommendations_title": "Ağıllı Tövsiyələr",
+            "recommendations_desc": "AI seçimlərinizi analiz edərək mükəmməl parçaları təklif edir",
+            "assistance_title": "Real vaxtda Yardım",
+            "assistance_desc": "Məhsullar və fərdiləşdirmə haqqında ani cavablar alın",
+            "staging_title": "Virtual Səhnələşdirmə",
+            "staging_desc": "AR texnologiyası ilə məkanınızda mebeli vizuallaşdırın"
+        }
+    },
+    "Footer": {
+        "brand_desc": "Sənətkarlıq və AI innovasiyası ilə lüks həyatı yenidən tanımlayırıq.",
+        "headers": {
+            "collections": "Kolleksiyalar",
+            "company": "Şirkət",
+            "contact": "Əlaqə"
+        },
+        "rights": "© 2026 Mamedov Furniture. Bütün hüquqlar qorunur.",
+        "links": {
+            "privacy": "Məxfilik Siyasəti",
+            "terms": "Xidmət Şərtləri",
+            "cookie": "Kuki Siyasəti"
+        },
+        "collections": {
+            "living": "Qonaq Otağı",
+            "dining": "Yemək Otağı",
+            "bedroom": "Yataq Otağı",
+            "workspace": "İş Sahəsi",
+            "outdoor": "Xarici Məkan"
+        },
+        "company": {
+            "about": "Haqqımızda",
+            "process": "Prosesimiz",
+            "sustainability": "Davamlılıq",
+            "careers": "Karyera",
+            "press": "Mətbuat"
+        }
+    },
+    "NotFound": {
+        "title": "Səhifə Tapılmadı",
+        "description": "Axtardığınız səhifə mövcud deyil və ya köçürülüb.",
+        "goHome": "Ana Səhifəyə Qayıt"
+    }
+}

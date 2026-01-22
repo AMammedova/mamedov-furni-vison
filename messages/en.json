@@ -1,0 +1,118 @@
+{
+    "Header": {
+        "title": "Mamedov Furniture",
+        "collections": "Collections",
+        "assistant": "AI Assistant",
+        "craftsmanship": "Craftsmanship",
+        "about": "About"
+    },
+    "Hero": {
+        "badge": "Where Artisan Meets AI",
+        "title_prefix": "Redefining",
+        "title_highlight": "Luxury Living",
+        "description": "Experience the perfect fusion of traditional craftsmanship and cutting-edge AI technology. Each piece is a masterpiece, tailored to your vision.",
+        "cta_explore": "Explore Collections",
+        "cta_assistant": "AI Design Assistant",
+        "stats_years": "Years of Excellence",
+        "stats_designs": "Unique Designs",
+        "stats_satisfaction": "Client Satisfaction"
+    },
+    "Features": {
+        "philosophy": "Our Philosophy",
+        "title": "Where Tradition Meets Innovation",
+        "description": "We believe the future of furniture lies in harmonizing time-honored craftsmanship with cutting-edge technology.",
+        "craftsmanship_title": "Artisan Craftsmanship",
+        "craftsmanship_desc": "Every piece is handcrafted by master artisans with decades of experience, ensuring unparalleled quality and attention to detail.",
+        "ai_title": "AI-Enhanced Design",
+        "ai_desc": "Our proprietary AI technology optimizes ergonomics, proportions, and structural integrity for perfect balance of form and function.",
+        "materials_title": "Premium Materials",
+        "materials_desc": "We source only the finest sustainable hardwoods, premium fabrics, and eco-friendly finishes from around the world.",
+        "sustainable_title": "Sustainable Practice",
+        "sustainable_desc": "Committed to environmental responsibility, we use certified sustainable materials and carbon-neutral production methods.",
+        "process_title": "Our Creation Process",
+        "step_1_title": "AI Analysis",
+        "step_1_desc": "Design optimization & planning",
+        "step_2_title": "Material Selection",
+        "step_2_desc": "Premium sustainable sourcing",
+        "step_3_title": "Handcrafting",
+        "step_3_desc": "Artisan construction",
+        "step_4_title": "Quality Assurance",
+        "step_4_desc": "Rigorous testing & finishing"
+    },
+    "ProductGallery": {
+        "collection_tag": "Curated Collections",
+        "collection_title": "Timeless Masterpieces",
+        "collection_desc": "Each piece is handcrafted by master artisans, enhanced by AI precision for perfect proportions and timeless elegance.",
+        "view_all": "View All Collections",
+        "categories": {
+            "Seating": "Seating",
+            "Tables": "Tables",
+            "Workspace": "Workspace"
+        },
+        "products": {
+            "Milano Lounge Chair": "Milano Lounge Chair",
+            "Heritage Dining Table": "Heritage Dining Table",
+            "Artisan Sofa": "Artisan Sofa",
+            "Signature Collection": "Signature Collection",
+            "Zen Minimalist Chair": "Zen Minimalist Chair",
+            "Executive Desk": "Executive Desk"
+        }
+    },
+    "AIAssistant": {
+        "badge": "AI-Powered Design",
+        "title": "Your Personal Design Assistant",
+        "description": "Harness the power of AI to create your perfect space. Get instant recommendations, visualizations, and expert guidance tailored to your taste.",
+        "chat_title": "Mamedov Furniture AI",
+        "status": "Always Online",
+        "active": "Active",
+        "welcome_message": "Welcome to Mamedov Furniture's AI Design Assistant! I'm here to help you find the perfect furniture pieces for your space. What style are you looking for?",
+        "placeholder": "Ask about furniture, styles, or design ideas...",
+        "suggestions": {
+            "1": "Show me modern minimalist chairs",
+            "2": "I need a dining table for 8 people",
+            "3": "What wood finishes do you have?",
+            "4": "Design a complete living room"
+        },
+        "features": {
+            "recommendations_title": "Smart Recommendations",
+            "recommendations_desc": "AI analyzes your preferences to suggest perfect pieces",
+            "assistance_title": "Real-time Assistance",
+            "assistance_desc": "Get instant answers about products and customization",
+            "staging_title": "Virtual Staging",
+            "staging_desc": "Visualize furniture in your space with AR technology"
+        }
+    },
+    "Footer": {
+        "brand_desc": "Redefining luxury living through artisan craftsmanship and AI innovation.",
+        "headers": {
+            "collections": "Collections",
+            "company": "Company",
+            "contact": "Contact"
+        },
+        "rights": "© 2026 Mamedov Furniture. All rights reserved.",
+        "links": {
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service",
+            "cookie": "Cookie Policy"
+        },
+        "collections": {
+            "living": "Living Room",
+            "dining": "Dining Room",
+            "bedroom": "Bedroom",
+            "workspace": "Workspace",
+            "outdoor": "Outdoor"
+        },
+        "company": {
+            "about": "About Us",
+            "process": "Our Process",
+            "sustainability": "Sustainability",
+            "careers": "Careers",
+            "press": "Press"
+        }
+    },
+    "NotFound": {
+        "title": "Page Not Found",
+        "description": "The page you are looking for doesn't exist or has been moved.",
+        "goHome": "Go Back Home"
+    }
+}
