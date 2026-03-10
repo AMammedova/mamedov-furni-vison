@@ -59,6 +59,7 @@
         }
     },
     "AIAssistant": {
+        "demo_badge": "Demo",
         "badge": "AI-Powered Design",
         "title": "Your Personal Design Assistant",
         "description": "Harness the power of AI to create your perfect space. Get instant recommendations, visualizations, and expert guidance tailored to your taste.",
@@ -83,6 +84,7 @@
         }
     },
     "Footer": {
+        "brand_name": "Mamedov Furniture",
         "brand_desc": "Redefining luxury living through artisan craftsmanship and AI innovation.",
         "headers": {
             "collections": "Collections",
@@ -109,6 +111,98 @@
             "careers": "Careers",
             "press": "Press"
         }
+    },
+    "ProductDetail": {
+        "backToCollections": "Back to Collections",
+        "category": "Category",
+        "dimensions": "Dimensions",
+        "material": "Material",
+        "addToCart": "Add to Cart",
+        "inquire": "Request Quote",
+        "description_label": "Description",
+        "descriptions": {
+            "milano_desc": "The Milano Lounge Chair combines mid-century elegance with modern comfort. Handcrafted with precision and finished in your choice of premium wood and fabric.",
+            "heritage_desc": "A centerpiece for the dining room, the Heritage Dining Table is built from solid hardwood with a timeless design that seats up to 10.",
+            "artisan_sofa_desc": "Our Artisan Sofa is the result of generations of upholstery expertise. Deep seating, sustainable fill, and durable hardwood frame.",
+            "signature_desc": "The Signature Collection desk brings executive style to your home office. Ample storage and cable management with a refined silhouette.",
+            "zen_desc": "Minimalist form meets maximum comfort. The Zen Chair is ideal for living rooms, reading nooks, or as accent seating.",
+            "executive_desc": "Command your workspace with the Executive Desk. Spacious surface, integrated drawers, and optional cable management for a clean look."
+        },
+        "dimensions_list": {
+            "milano_dimensions": "W 28\" × D 32\" × H 32\"",
+            "heritage_dimensions": "L 96\" × W 42\" × H 30\"",
+            "artisan_sofa_dimensions": "W 96\" × D 38\" × H 34\"",
+            "signature_dimensions": "W 60\" × D 30\" × H 30\"",
+            "zen_dimensions": "W 24\" × D 26\" × H 31\"",
+            "executive_dimensions": "W 72\" × D 36\" × H 30\""
+        },
+        "material_list": {
+            "milano_material": "Solid walnut, top-grain leather or fabric",
+            "heritage_material": "Solid oak or walnut, oil or lacquer finish",
+            "artisan_sofa_material": "Hardwood frame, down-blend cushion, fabric or leather",
+            "signature_material": "Oak veneer and solid oak, metal legs",
+            "zen_material": "Solid beech or oak, natural or stained finish",
+            "executive_material": "Oak or walnut veneer, powder-coated steel"
+        }
+    },
+    "Collections": {
+        "title": "All Collections",
+        "subtitle": "Explore our full range of handcrafted furniture.",
+        "view_product": "View product"
+    },
+    "Cart": {
+        "title": "Your Cart",
+        "empty": "Your cart is empty.",
+        "continueShopping": "Continue Shopping"
+    },
+    "Account": {
+        "title": "My Account",
+        "signIn": "Sign In",
+        "placeholder": "Account and orders—coming soon."
+    },
+    "ProductDetail": {
+        "back": "Back to Collections",
+        "add_to_cart": "Add to Cart",
+        "dimensions": "Dimensions",
+        "material": "Material",
+        "milano_desc": "A timeless lounge chair that blends mid-century elegance with modern comfort. Perfect for living rooms and reading nooks.",
+        "milano_dimensions": "32\" W × 34\" D × 30\" H",
+        "milano_material": "Solid walnut, top-grain leather",
+        "heritage_desc": "A commanding dining table crafted for gatherings. Hand-finished solid wood with optional extension leaves.",
+        "heritage_dimensions": "96\" W × 42\" D × 30\" H",
+        "heritage_material": "Solid oak, natural oil finish",
+        "artisan_sofa_desc": "Our signature three-seater with deep cushions and a low profile. Built for both style and everyday comfort.",
+        "artisan_sofa_dimensions": "88\" W × 38\" D × 32\" H",
+        "artisan_sofa_material": "Kiln-dried hardwood, down-blend cushions",
+        "signature_desc": "A cohesive workspace collection: desk, shelving, and storage designed to work together in any layout.",
+        "signature_dimensions": "Desk: 60\" W × 30\" D × 29\" H",
+        "signature_material": "FSC-certified oak, matte lacquer",
+        "zen_desc": "Minimal lines and exceptional support. Ideal for dining or as an accent chair.",
+        "zen_dimensions": "24\" W × 24\" D × 31\" H",
+        "zen_material": "Bent oak, linen upholstery",
+        "executive_desc": "A statement desk with integrated cable management and optional matching credenza.",
+        "executive_dimensions": "72\" W × 36\" D × 30\" H",
+        "executive_material": "Walnut veneer, steel base"
+    },
+    "Collections": {
+        "title": "All Collections",
+        "subtitle": "Explore our full range of handcrafted furniture.",
+        "view_product": "View product"
+    },
+    "Cart": {
+        "title": "Your Cart",
+        "empty": "Your cart is empty.",
+        "continue_shopping": "Continue Shopping"
+    },
+    "Account": {
+        "title": "Account",
+        "sign_in": "Sign in",
+        "placeholder": "Account and orders — coming soon."
+    },
+    "About": {
+        "badge": "Our Story",
+        "title": "Crafting Tomorrow's Heirlooms Today",
+        "description": "Mamedov Furniture brings together generations of artisan expertise with intelligent design. We create furniture that fits your space, your style, and your values—backed by sustainable materials and a commitment to lasting quality."
     },
     "NotFound": {
         "title": "Page Not Found",

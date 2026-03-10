@@ -3,33 +3,18 @@
 import { motion, useInView } from 'motion/react';
 import { Hammer, Cpu, Award, Leaf } from 'lucide-react';
 import { useRef } from 'react';
+import { useTranslations } from 'next-intl';
 
 export function Features() {
-
+  const t = useTranslations('Features');
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
   const features = [
-    {
-      icon: Hammer,
-      title: 'Artisan Craftsmanship',
-      description: 'Every piece is handcrafted by master artisans with decades of experience, ensuring unparalleled quality and attention to detail.'
-    },
-    {
-      icon: Cpu,
-      title: 'AI-Enhanced Design',
-      description: 'Our proprietary AI technology optimizes ergonomics, proportions, and structural integrity for perfect balance of form and function.'
-    },
-    {
-      icon: Award,
-      title: 'Premium Materials',
-      description: 'We source only the finest sustainable hardwoods, premium fabrics, and eco-friendly finishes from around the world.'
-    },
-    {
-      icon: Leaf,
-      title: 'Sustainable Practice',
-      description: 'Committed to environmental responsibility, we use certified sustainable materials and carbon-neutral production methods.'
-    }
+    { icon: Hammer, titleKey: 'craftsmanship_title', descKey: 'craftsmanship_desc' },
+    { icon: Cpu, titleKey: 'ai_title', descKey: 'ai_desc' },
+    { icon: Award, titleKey: 'materials_title', descKey: 'materials_desc' },
+    { icon: Leaf, titleKey: 'sustainable_title', descKey: 'sustainable_desc' }
   ];
 
   return (
@@ -68,7 +53,7 @@ export function Features() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-[#D2691E] tracking-[0.3em] text-sm uppercase mb-6 block font-medium"
           >
-            Our Philosophy
+            {t('philosophy')}
           </motion.span>
 
           <motion.h2
@@ -78,7 +63,7 @@ export function Features() {
             className="text-5xl md:text-7xl font-bold text-[#F5F5DC] mb-6 tracking-tight"
             style={{ fontFamily: 'var(--font-playfair)' }}
           >
-            Where Tradition Meets Innovation
+            {t('title')}
           </motion.h2>
 
           <motion.p
@@ -87,8 +72,7 @@ export function Features() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl text-[#F5F5DC]/70 max-w-3xl mx-auto leading-relaxed font-light"
           >
-            We believe the future of furniture lies in harmonizing time-honored craftsmanship
-            with cutting-edge technology.
+            {t('description')}
           </motion.p>
         </motion.div>
 
@@ -122,10 +106,10 @@ export function Features() {
                 </div>
 
                 <h3 className="text-2xl md:text-3xl font-bold text-[#F5F5DC] mb-4" style={{ fontFamily: 'var(--font-playfair)' }}>
-                  {feature.title}
+                  {t(feature.titleKey)}
                 </h3>
                 <p className="text-[#F5F5DC]/70 leading-relaxed text-lg">
-                  {feature.description}
+                  {t(feature.descKey)}
                 </p>
 
                 {/* Hover Glow */}
@@ -157,15 +141,15 @@ export function Features() {
           {/* Timeline Container */}
           <div className="relative backdrop-blur-xl bg-gradient-to-br from-white/10 via-white/5 to-white/10 border border-white/20 rounded-[2.5rem] p-12 md:p-16">
             <h3 className="text-4xl md:text-5xl font-bold text-[#F5F5DC] mb-16 text-center" style={{ fontFamily: 'var(--font-playfair)' }}>
-              Our Creation Process
+              {t('process_title')}
             </h3>
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               {[
-                { step: '01', title: 'AI Analysis', desc: 'Design optimization & planning' },
-                { step: '02', title: 'Material Selection', desc: 'Premium sustainable sourcing' },
-                { step: '03', title: 'Handcrafting', desc: 'Artisan construction' },
-                { step: '04', title: 'Quality Assurance', desc: 'Rigorous testing & finishing' }
+                { step: '01', titleKey: 'step_1_title', descKey: 'step_1_desc' },
+                { step: '02', titleKey: 'step_2_title', descKey: 'step_2_desc' },
+                { step: '03', titleKey: 'step_3_title', descKey: 'step_3_desc' },
+                { step: '04', titleKey: 'step_4_title', descKey: 'step_4_desc' }
               ].map((item, index) => (
                 <motion.div
                   key={index}
@@ -194,10 +178,10 @@ export function Features() {
 
                   {/* Content */}
                   <h4 className="text-xl md:text-2xl font-semibold text-[#F5F5DC] mb-3" style={{ fontFamily: 'var(--font-playfair)' }}>
-                    {item.title}
+                    {t(item.titleKey)}
                   </h4>
                   <p className="text-[#F5F5DC]/70 leading-relaxed">
-                    {item.desc}
+                    {t(item.descKey)}
                   </p>
 
                   {/* Connector Line */}

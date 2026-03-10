@@ -17,8 +17,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-    title: "Mamedov Furniture - Luxury Interiors",
-    description: "Experience furniture in a new dimension.",
+    title: "Mamedov Furniture — Handcrafted Furniture",
+    description: "Real wood, real craft. Mamedov Furniture makes furniture that lasts—for your home and your family.",
 };
 
 export default async function RootLayout({

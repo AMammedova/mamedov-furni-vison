@@ -2,7 +2,6 @@
 
 import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
-import { Button } from '@/app/components/ui/button';
 import { useTranslations } from 'next-intl';
 
 export function Hero() {
@@ -68,20 +67,13 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <Button
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-7 text-lg rounded-full shadow-lg shadow-primary/25 transition-all duration-300 hover:scale-105 group"
-            >
+            <a href="#collections" className="inline-flex items-center justify-center rounded-full bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-7 text-lg shadow-lg shadow-primary/25 transition-all duration-300 hover:scale-105 group">
               {t('cta_explore')}
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-white/10 text-white bg-white/5 hover:bg-white/10 px-10 py-7 text-lg rounded-full backdrop-blur-sm transition-all duration-300 hover:scale-105"
-            >
+            </a>
+            <a href="#ai-assistant" className="inline-flex items-center justify-center rounded-full border border-white/10 text-white bg-white/5 hover:bg-white/10 px-10 py-7 text-lg backdrop-blur-sm transition-all duration-300 hover:scale-105">
               {t('cta_assistant')}
-            </Button>
+            </a>
           </div>
         </motion.div>
 

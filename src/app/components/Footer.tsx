@@ -42,7 +42,7 @@ export function Footer() {
                 <div className="absolute -inset-1 bg-gradient-to-br from-[#8B4513] to-[#D2691E] rounded-xl blur opacity-30 -z-10" />
               </div>
               <span className="text-xl font-bold text-[#F5F5DC]" style={{ fontFamily: 'var(--font-playfair)' }}>
-                Mamedov Furniture
+                {t('brand_name')}
               </span>
             </div>
             <p className="text-[#F5F5DC]/70 mb-8 leading-relaxed">
@@ -77,19 +77,19 @@ export function Footer() {
             </h4>
             <ul className="space-y-4">
               {[
-                t('collections.living'),
-                t('collections.dining'),
-                t('collections.bedroom'),
-                t('collections.workspace'),
-                t('collections.outdoor')
+                { label: t('collections.living'), href: '#collections' },
+                { label: t('collections.dining'), href: '#collections' },
+                { label: t('collections.bedroom'), href: '#collections' },
+                { label: t('collections.workspace'), href: '#collections' },
+                { label: t('collections.outdoor'), href: '#collections' }
               ].map((item, index) => (
                 <motion.li
                   key={index}
                   whileHover={{ x: 5 }}
                   transition={{ duration: 0.2 }}
                 >
-                  <a href="#" className="text-[#F5F5DC]/70 hover:text-[#D2691E] transition-colors flex items-center gap-2 group">
-                    <span>{item}</span>
+                  <a href={item.href} className="text-[#F5F5DC]/70 hover:text-[#D2691E] transition-colors flex items-center gap-2 group">
+                    <span>{item.label}</span>
                     <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </a>
                 </motion.li>
@@ -109,19 +109,19 @@ export function Footer() {
             </h4>
             <ul className="space-y-4">
               {[
-                t('company.about'),
-                t('company.process'),
-                t('company.sustainability'),
-                t('company.careers'),
-                t('company.press')
+                { label: t('company.about'), href: '#about' },
+                { label: t('company.process'), href: '#craftsmanship' },
+                { label: t('company.sustainability'), href: '#craftsmanship' },
+                { label: t('company.careers'), href: '#' },
+                { label: t('company.press'), href: '#' }
               ].map((item, index) => (
                 <motion.li
                   key={index}
                   whileHover={{ x: 5 }}
                   transition={{ duration: 0.2 }}
                 >
-                  <a href="#" className="text-[#F5F5DC]/70 hover:text-[#D2691E] transition-colors flex items-center gap-2 group">
-                    <span>{item}</span>
+                  <a href={item.href} className="text-[#F5F5DC]/70 hover:text-[#D2691E] transition-colors flex items-center gap-2 group">
+                    <span>{item.label}</span>
                     <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </a>
                 </motion.li>

@@ -3,6 +3,7 @@ import { Hero } from '@/app/components/Hero';
 import { ProductGallery } from '@/app/components/ProductGallery';
 import { AIAssistant } from '@/app/components/AIAssistant';
 import { Features } from '@/app/components/Features';
+import { About } from '@/app/components/About';
 import { Footer } from '@/app/components/Footer';
 import { GlobalStyles } from '@/app/components/GlobalStyles';
 
@@ -17,6 +18,7 @@ export default function Home() {
                 <ProductGallery />
                 <AIAssistant />
                 <Features />
+                <About />
             </main>
             <Footer />
         </div>

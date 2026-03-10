@@ -121,9 +121,14 @@ export function AIAssistant() {
                   <p className="text-white/50 text-xs uppercase tracking-wider">{t('status')}</p>
                 </div>
               </div>
-              <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/5">
-                <div className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse shadow-[0_0_8px_rgba(74,222,128,0.5)]" />
-                <span className="text-white/70 text-xs font-medium">{t('active')}</span>
+              <div className="flex items-center gap-2">
+                <span className="px-2.5 py-1 rounded-full bg-amber-500/20 border border-amber-500/30 text-amber-400/90 text-[10px] uppercase tracking-wider font-medium">
+                  {t('demo_badge')}
+                </span>
+                <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/5">
+                  <div className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse shadow-[0_0_8px_rgba(74,222,128,0.5)]" />
+                  <span className="text-white/70 text-xs font-medium">{t('active')}</span>
+                </div>
               </div>
             </div>
 

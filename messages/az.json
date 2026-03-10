@@ -2,13 +2,13 @@
     "Header": {
         "title": "Mamedov Furniture",
         "collections": "Kolleksiyalar",
-        "assistant": "AI Assistenti",
+        "assistant": "AI Köməkçi",
         "craftsmanship": "Sənətkarlıq",
         "about": "Haqqımızda"
     },
     "Hero": {
         "badge": "Sənət və AI-nın Görüşdüyü Yer",
-        "title_prefix": "Yenidən Tanımlanan",
+        "title_prefix": "Mamedov Furniture",
         "title_highlight": "Lüks Həyat",
         "description": "Ənənəvi sənətkarlıq və qabaqcıl AI texnologiyasının mükəmməl birləşməsini yaşayın. Hər bir parça, sizin fikrinizə uyğun hazırlanmış bir şah əsərdir.",
         "cta_explore": "Kolleksiyaları Kəşf Edin",
@@ -47,7 +47,7 @@
         "categories": {
             "Seating": "Oturacaqlar",
             "Tables": "Masalar",
-            "Workspace": "İş Sahəsi"
+            "Workspace": "İş sahəsi"
         },
         "products": {
             "Milano Lounge Chair": "Milano İstirahət Kreslosu",
@@ -59,13 +59,14 @@
         }
     },
     "AIAssistant": {
+        "demo_badge": "Demo",
         "badge": "AI ilə İşləyən Dizayn",
         "title": "Şəxsi Dizayn Assistentiniz",
         "description": "Mükəmməl məkanınızı yaratmaq üçün AI-nın gücündən istifadə edin. Zövqünüzə uyğun ani tövsiyələr, vizuallaşdırmalar və ekspert rəhbərliyi alın.",
-        "chat_title": "Mamedov Furniture AI",
+        "chat_title": "FurniVision AI",
         "status": "Həmişə Onlayn",
         "active": "Aktiv",
-        "welcome_message": "Mamedov Furniture AI Dizayn Assistentinə xoş gəlmisiniz! Məkanınız üçün mükəmməl mebel parçalarını tapmaqda sizə kömək etmək üçün buradayam. Hansı tərzi axtarırsınız?",
+        "welcome_message": "FurniVision AI Dizayn Assistentinə xoş gəlmisiniz! Məkanınız üçün mükəmməl mebel parçalarını tapmaqda sizə kömək etmək üçün buradayam. Hansı tərzi axtarırsınız?",
         "placeholder": "Mebel, üslublar və ya dizayn fikirləri haqqında soruşun...",
         "suggestions": {
             "1": "Müasir minimalist kresloları göstər",
@@ -83,13 +84,14 @@
         }
     },
     "Footer": {
+        "brand_name": "FurniVision",
         "brand_desc": "Sənətkarlıq və AI innovasiyası ilə lüks həyatı yenidən tanımlayırıq.",
         "headers": {
             "collections": "Kolleksiyalar",
             "company": "Şirkət",
             "contact": "Əlaqə"
         },
-        "rights": "© 2026 Mamedov Furniture. Bütün hüquqlar qorunur.",
+        "rights": "© 2026 FurniVision. Bütün hüquqlar qorunur.",
         "links": {
             "privacy": "Məxfilik Siyasəti",
             "terms": "Xidmət Şərtləri",
@@ -109,6 +111,50 @@
             "careers": "Karyera",
             "press": "Mətbuat"
         }
+    },
+    "ProductDetail": {
+        "back": "Kolleksiyalara qayıt",
+        "add_to_cart": "Səbətə əlavə et",
+        "dimensions": "Ölçülər",
+        "material": "Material",
+        "milano_desc": "Orta əsrlər zərifliyi ilə müasir rahatlığı birləşdirən zamanın sınağından çıxmış kreslo. Qonaq otağı və oxu küncü üçün idealdır.",
+        "milano_dimensions": "32\" E × 34\" D × 30\" H",
+        "milano_material": "Bərk qoz ağacı, yuxarı təbəqə dəri",
+        "heritage_desc": "Görüşlər üçün hazırlanmış möhtəşəm yemək masası. Əl ilə işlənmiş bərk ağac, isteğe bağlı uzanan yarpaqlar.",
+        "heritage_dimensions": "96\" E × 42\" D × 30\" H",
+        "heritage_material": "Bərk palıd, təbii yağ cilası",
+        "artisan_sofa_desc": "Dərin yastıqlı və aşağı profilli imza üç oturacaqlı divan. Həm üslub, həm də günlük rahatlıq üçün.",
+        "artisan_sofa_dimensions": "88\" E × 38\" D × 32\" H",
+        "artisan_sofa_material": "Soba qurudulmuş bərk ağac, tüklü yastıqlar",
+        "signature_desc": "Uyğun iş məkanı kolleksiyası: yazı masası, rəflər və saxlama birlikdə işləyəcək şəkildə dizayn edilib.",
+        "signature_dimensions": "Masa: 60\" E × 30\" D × 29\" H",
+        "signature_material": "FSC sertifikatlı palıd, mat lak",
+        "zen_desc": "Minimal xətlər və əla dəstək. Yemək və ya aksent kreslo kimi idealdır.",
+        "zen_dimensions": "24\" E × 24\" D × 31\" H",
+        "zen_material": "Bükülmüş palıd, kətan üzlük",
+        "executive_desc": "İnteqrasiya edilmiş kabel idarəetməsi və isteğe bağlı uyğun kredenza ilə təmtəraqlı masa.",
+        "executive_dimensions": "72\" E × 36\" D × 30\" H",
+        "executive_material": "Qoz kaplama, polad baza"
+    },
+    "Collections": {
+        "title": "Bütün Kolleksiyalar",
+        "subtitle": "Əl işi mebel çeşidimizi kəşf edin.",
+        "view_product": "Məhsula bax"
+    },
+    "Cart": {
+        "title": "Səbətiniz",
+        "empty": "Səbətiniz boşdur.",
+        "continue_shopping": "Alış-verişə davam et"
+    },
+    "Account": {
+        "title": "Hesab",
+        "sign_in": "Daxil ol",
+        "placeholder": "Hesab və sifarişlər — tezliklə."
+    },
+    "About": {
+        "badge": "Bizim Hekayə",
+        "title": "Sabahın İrsi Bu Gün Yaradılır",
+        "description": "FurniVision sənətkarlıq təcrübəsini ağıllı dizaynla birləşdirir. Məkanınıza, üslubunuza və dəyərlərinizə uyğun, davamlı materiallarla və davamlı keyfiyyətə sadiqliyi ilə mebel yaradırıq."
     },
     "NotFound": {
         "title": "Səhifə Tapılmadı",

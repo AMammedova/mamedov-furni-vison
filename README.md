@@ -1,7 +1,6 @@
+  # Mamedov Furniture
 
-  # FurniVision Landing Page Design
-
-  This is a code bundle for FurniVision Landing Page Design. The original project is available at https://www.figma.com/design/ftejnmRoAiZUNINLbURFAG/FurniVision-Landing-Page-Design.
+  Handcrafted furniture — landing and product pages. Built with Next.js, TypeScript, and next-intl (EN / AZ).
 
   ## Running the code
 
